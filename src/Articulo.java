@@ -48,7 +48,7 @@ public class Articulo {
     //Metodo toString()
     @Override
     public String toString(){
-        return "\nProducto{\n"+
+        return "\nProducto{"+
                 "*ClaveProducto: "+ getClaveP()+
                 "*Descripcion: "+getDescripcion()+
                 "*Precio: "+getPrecio()+
